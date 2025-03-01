@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+.typewriter {
+  font-family: "Silkscreen", sans-serif;
+  color: rgb(32, 29, 29);
+  font-size: 25px;
+}
+ 
+/* add custom cursor */
+.typewriter::after {
+  content: "|";
+  display: inline;
+  animation: blink 1s infinite;
+}
+  
+/* custom cursor animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.red {
+    color: #0ef;
+  }
